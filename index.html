@@ -1,75 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 0.6875rem; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+
+      
+
+      .Caja{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:85vh;
+        width: 30vw;
+        border-radius: 10%;
+        background-color: white;
+      }
+      
+      section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        background-color: hsl(216, 15%, 48%);
+      }
+      img
+      {
+        width: 25vw;
+        height: 50vh;
+      }
+
+      h2
+      {
+        font-weight: 700;
+        font-size: 15px;
+        width: 20vw;
+      }
+      h3
+      {
+        font-weight: 400;
+        font-size: 15px;
+        width: 20vw;
+      }
+    
+    </style>
+  </head>
   
-  <title>Frontend Mentor | QR code component</title>
+  <body>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    <main>
+
+    <section>
+      <div class="Caja">
+        <img src="./images/image-qr-code.png" alt="image of a qr code" > 
+        <h2>Improve your front-end skills by building projects</h2>
+        <h3>Scan this QR code to visit Frontend Mentor and take your coding skills to next level</h3>
+      </div>
+    </section> 
+
+    </main>
 
     
-
-    .Caja{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height:85vh;
-      width: 30vw;
-      border-radius: 10%;
-      background-color: white;
-    }
-    
-    section{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      width: 100vw;
-      background-color: hsl(216, 15%, 48%);
-    }
-    img
-    {
-      width: 25vw;
-      height: 50vh;
-    }
-
-    h2
-    {
-      font-weight: 700;
-      font-size: 15px;
-      width: 20vw;
-    }
-    h3
-    {
-      font-weight: 400;
-      font-size: 15px;
-      width: 20vw;
-    }
-   
-  </style>
-</head>
-<body>
-
-  <main>
-
-   <section>
-    <div class="Caja">
-      <img type="image/png" src="./images/image-qr-code.png"> 
-      <h2>Improve your front-end skills by building projects</h2>
-      <h3>Scan this QR code to visit Frontend Mentor and take your coding skills to next level</h3>
-    </div>
-   </section> 
-
-  </main>
-
-  
-</body>
+  </body>
 </html>
